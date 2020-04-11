@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FCC - Tribute Page | Dr. Sanduk Ruit</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body>
+<body id="main">
     <header>
         <div>
-            <h1>Dr. Sanduk Ruit</h1>
+            <h1 id="title">Dr. Sanduk Ruit</h1>
         </div>
         <div>
-            <img src="assets/images/sanduk-ruit-1.jpg" alt="a photo of Doctor Sanduk Ruit">
+            <figure id="img-div">
+                <img id="image" src="assets/images/sanduk-ruit-1.jpg" alt="a photo of Doctor Sanduk Ruit">
+                <figcaption id="img-caption">
+                    The man that restored the sight of over 130,000 people across Africa and Asia.
+                </figcaption>
+            </figure>
         </div>
     </header>
     <main>
-        <div>
-            <h2>
-                The man that restored the sight of over 130,000 people across Africa and Asia.
-            </h2>
-        </div>
-        <div>
+        <div id="tribute-works-showcase">
             <img src="assets/images/sanduk-ruit-2.jpg" alt="a photo of Doctor Sanduk Ruit">
             <img src="assets/images/sanduk-ruit-3.jpg" alt="a photo of Doctor Sanduk Ruit">
             <img src="assets/images/sanduk-ruit-4.jpg" alt="a photo of Doctor Sanduk Ruit">
         </div>
-        <div>
-            <h3>
-                Here's a time line of Dr. Sanduk Ruit's life:
-            </h3>
-            <ul>
-                <li>1954 - Born in Olangchung Gola, Taplejung District, Nepal.</li>
-            </ul>
+        <div id="tribute-info">
+            <div>
+                <h2>
+                    Here's a time line of Dr. Sanduk Ruit's life:
+                </h2>
+                <hr>
+                <ul>
+                    <li>1954 - Born in Olangchung Gola, Taplejung District, Nepal.</li>
+                    <li>1969 - Ruit graduated from Siddharta Vanasthali School in Kathmandu, Nepal.</li>
+                    <li>1986 - Ruit and Fred Hollows developed a strategy for using inexpensive intraocular lenses to bring small-incision cataract surgery to the developing world.</li>
+                    <li>1987 - Ruit got married to a ophthalmic nurse, which he credits as being a pillar of strength to him in his difficult days while pursuing Tilganga.</li>
+                    <li>1994 - Ruit helped found the Tilganga Institute of Ophthalmology, which provides free treatment to those who cannot afford to pay.</li>
+                    <li>1995 - Ruit developed a new intraocular lens that could be produced far more cheaply and which, as of 2010, is used in 60 countries.</li>
+                    <li>2001 - Asteriod 83362 Sandukruit, discovered by Bill Yeung was named in his honor.</li>
+                    <li>2006 - He was awarded the Ramon Magsaysay Award.</li>
+                    <li>2008 - Ruit was appointed an Honorary Officer of the Order of Australia, "for service to humanity by establishing eye care services in Nepal and surrounding countries, and for his work in teaching and training surgeons, and technical innovation".</li>
+                    <li>2015 - He was appointed Member of the National Order of Merit of Bhutan [in Gold].</li>
+                    <li>2018 - The government of India awarded him the Padma Shri, its fourth highest civilian award, for "[his] innovation in 1980's [that] led to a 90 percent reduction in the cost of cataract eye surgery, provides low-cost cataract surgery lenses to over thirty countries.</li>
+                    <li>2018 - Publish his biography "The Barefoot Surgeon", authored by Australian writer Ali Gripper.</li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer>
         <div>
             <p>
-                If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Sanduk_Ruit" target="_blank">Wikipedia entry</a>.
+                If you have time, you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Sanduk_Ruit" target="_blank">Wikipedia entry</a>.
             </p>
+            <p>Website made by <a href="dev.danidjaoen.com">Dani Djaoen</a></p>
         </div>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
